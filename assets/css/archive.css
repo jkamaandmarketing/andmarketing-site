@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+section.page_head_title {
+    padding: 160px 0 120px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+section.page_head_title h1 span {
+    font-size: 5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-right: 30px;
+}
+
+section.page_head_title h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.page_contents_inner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section.page_contents {
+    padding: 100px 0;
+}
+
+.box {
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+}
+
+p.post-date {
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background: #eee;
+    padding: 3px 10px;
+    width: max-content;
+    margin-bottom: 8px;
+    color: #888;
+}
+
+h3.title {
+    margin: 5px 0 14px 0px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+p.excerpt {
+    color: #999;
+    font-size: 1.3rem;
+}
+
+.detail {
+    position: relative;
+    padding-right: 40px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
+
+.detail:hover {
+    opacity: 0.5;
+}
+
+.detail:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    transform: rotate(45deg);
+    right: 5px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.contact_thanks_main span {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.contact_thanks_text {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.back_top {
+    margin: 60px auto 0;
+    background: #000;
+    display: block;
+    padding: 15px 40px;
+    text-align: center;
+    width: max-content;
+    border-radius: 100px;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.5rem;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.back_top:hover {
+    padding: 15px 50px;	
+}
+
+.back_top span {
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+    z-index: 999;
+    color: #FABE00;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+}
+
+.back_top:hover span {
+    color: #fff;
+}
+
+.back_top:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: rgba(234, 85, 4, 1);
+    left: 0;
+    top: 0;
+	border-radius: 100px;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	opacity: 0;
+}
+
+.back_top:hover:after {
+	opacity: 1;
+	width: 100%;
+}
+
+.pp_head {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.pp_title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pp_text {
+    margin: 30px 30px 50px;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 1.4rem;
+}
+
+.error {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 480px) {
+
+section.page_head_title {
+	padding: 80px 8% 40px;
+}
+
+section.page_head_title h1 {
+    font-size: 1.4rem;
+    justify-content: space-between;
+}
+
+section.page_head_title h1 span {
+    font-size: 3rem;
+    margin-right: 3%;
+    width: 50%;
+    text-align: left;
+}
+
+section.page_contents {
+    padding: 50px 8%;
+}
+
+.pp_head {
+    font-size: 1.2rem;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.pp_title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.pp_text {
+    margin: 20px 5% 30px;
+    font-size: 1.2rem;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.back_top {
+    margin: 30px auto;
+    width: 100%;
+}
+	
+.error {
+	font-size: 1.3rem;
+	line-height: 24px;
+    text-align: left;
+}
+	
+h3.title {
+    font-size: 1.4rem;
+    margin: 3px 0 8px;
+    line-height: 28px;
+}
+
+p.excerpt {
+    font-size: 1.1rem;
+}
+
+p.post-date {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.box {
+    padding: 20px 0;
+}
+
+.detail:after {
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+}
+	
+.back_top span {
+    font-size: 1.2rem;
+}
+
+}

@@ -1,0 +1,300 @@
+.noscroll {
+    overflow: hidden;
+}
+.triger_wrap {
+    display: none;
+    height: 24px;
+    position: fixed;
+    right: 5%;
+    top: 22px;
+    width: 30px;
+    z-index: 999;
+    cursor: pointer;
+}
+.menu-trigger,
+.menu-trigger span {
+	display: block;
+	transition: all .4s;
+	box-sizing: border-box;
+    z-index: 99999;
+}
+.menu-trigger {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.menu-trigger span {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #fff;
+	border-radius: 4px;
+	z-index: 99999;
+}
+.menu-trigger span:nth-of-type(1) {
+	top: 0;
+}
+.menu-trigger span:nth-of-type(2) {
+	top: 11px;
+}
+.menu-trigger span:nth-of-type(3) {
+	bottom: 0;
+}
+.mobilenav {
+	font-family: inherit;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+.mobilenav ul {
+	height: 100%;
+	letter-spacing: -0.4em;
+	text-align: center;
+	width: 100%;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.mobilenav ul li {
+	list-style-type: none;
+}
+.mobilenav ul li a {
+	display: flex;
+	padding: 15px 7%;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	font-size: 1.8rem;
+	justify-content: space-between;
+	align-items: center;
+	color: #ff4e00;
+	font-family: 'Reem Kufi Fun', sans-serif;
+	letter-spacing: 1px;
+	text-align: left;
+}
+.mobilenav_text {
+    font-size: 8.5px;
+    font-weight: bold;
+    position: absolute;
+    right: -3px;
+    top: 27px;
+    z-index: 9999;
+    color: #FF5A06;
+}
+
+.mobilenav ul li a span {
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+}
+
+.movmobb1 .active span:nth-of-type(1) {
+	-webkit-transform: translateY(12px) rotate(-45deg);
+	transform: translateY(12px) rotate(-45deg);
+}
+.movmobb1 .active span:nth-of-type(2) {
+	opacity: 0;
+}
+.movmobb1 .active span:nth-of-type(3) {
+	-webkit-transform: translateY(-8px) rotate(45deg);
+	transform: translateY(-8px) rotate(45deg);
+}
+
+
+.movmobb2 .active span:nth-of-type(1) {
+	-webkit-transform: translateY(12px) rotate(-315deg);
+	transform: translateY(12px) rotate(-315deg);
+}
+.movmobb2 .active span:nth-of-type(2) {
+	opacity: 0;
+}
+.movmobb2 .active span:nth-of-type(3) {
+	-webkit-transform: translateY(-9px) rotate(315deg);
+	transform: translateY(-9px) rotate(315deg);
+}
+
+
+.movmobb3 .active {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.movmobb3 .active span:nth-of-type(1) {
+	-webkit-transform: translateY(11px) rotate(-45deg);
+	transform: translateY(11px) rotate(-45deg);
+}
+.movmobb3 .active span:nth-of-type(2) {
+	-webkit-transform: translateY(0) rotate(45deg);
+	transform: translateY(0) rotate(45deg);
+}
+.movmobb3 .active span:nth-of-type(3) {
+	opacity: 0;
+}
+
+
+.movmobb4  span:nth-of-type(3),
+.movmobb4 .active span:nth-of-type(3) {
+	transition: none;
+}
+.movmobb4 .active {
+	-webkit-transform: rotateX(720deg);
+	transform: rotateX(720deg);
+}
+.movmobb4 .active span:nth-of-type(1) {
+	-webkit-transform: translateY(11px) rotate(-45deg);
+	transform: translateY(11px) rotate(-45deg);
+}
+.movmobb4 .active span:nth-of-type(2) {
+	-webkit-transform: translateY(0) rotate(45deg);
+	transform: translateY(0) rotate(45deg);
+}
+.movmobb4 .active span:nth-of-type(3) {
+	opacity: 0;
+}
+
+
+.movmobb5  span:nth-of-type(1) {
+	-webkit-animation: menu-bar01 .75s forwards;
+	animation: menu-bar01 .75s forwards;
+}
+@-webkit-keyframes menu-bar01 {
+	0% {
+		-webkit-transform: translateY(12px) rotate(45deg);
+	}
+	50% {
+		-webkit-transform: translateY(12px) rotate(0);
+	}
+	100% {
+		-webkit-transform: translateY(0) rotate(0);
+	}
+}
+@keyframes menu-bar01 {
+	0% {
+		transform: translateY(12px) rotate(45deg);
+	}
+	50% {
+		transform: translateY(12px) rotate(0);
+	}
+	100% {
+		transform: translateY(0) rotate(0);
+	}
+}
+.movmobb5  span:nth-of-type(2) {
+	transition: all .25s .25s;
+	opacity: 1;
+}
+.movmobb5  span:nth-of-type(3) {
+	-webkit-animation: menu-bar02 .75s forwards;
+	animation: menu-bar02 .75s forwards;
+}
+@-webkit-keyframes menu-bar02 {
+	0% {
+		-webkit-transform: translateY(-12px) rotate(-45deg);
+	}
+	50% {
+		-webkit-transform: translateY(-12px) rotate(0);
+	}
+	100% {
+		-webkit-transform: translateY(0) rotate(0);
+	}
+}
+@keyframes menu-bar02 {
+	0% {
+		transform: translateY(-12px) rotate(-45deg);
+	}
+	50% {
+		transform: translateY(-12px) rotate(0);
+	}
+	100% {
+		transform: translateY(0) rotate(0);
+	}
+}
+.movmobb5 .active span:nth-of-type(1) {
+	-webkit-animation: active-menu-bar01 .75s forwards;
+	animation: active-menu-bar01 .75s forwards;
+}
+@-webkit-keyframes active-menu-bar01 {
+	0% {
+		-webkit-transform: translateY(0) rotate(0);
+	}
+	50% {
+		-webkit-transform: translateY(12px) rotate(0);
+	}
+	100% {
+		-webkit-transform: translateY(12px) rotate(45deg);
+	}
+}
+@keyframes active-menu-bar01 {
+	0% {
+		transform: translateY(0) rotate(0);
+	}
+	50% {
+		transform: translateY(12px) rotate(0);
+	}
+	100% {
+		transform: translateY(12px) rotate(45deg);
+	}
+}
+.movmobb5 .active span:nth-of-type(2) {
+	opacity: 0;
+}
+.movmobb5 .active span:nth-of-type(3) {
+	-webkit-animation: active-menu-bar03 .75s forwards;
+	animation: active-menu-bar03 .75s forwards;
+}
+@-webkit-keyframes active-menu-bar03 {
+	0% {
+		-webkit-transform: translateY(0) rotate(0);
+	}
+	50% {
+		-webkit-transform: translateY(-10px) rotate(0);
+	}
+	100% {
+		-webkit-transform: translateY(-10px) rotate(-45deg);
+	}
+}
+@keyframes active-menu-bar03 {
+	0% {
+		transform: translateY(0) rotate(0);
+	}
+	50% {
+		transform: translateY(-10px) rotate(0);
+	}
+	100% {
+		transform: translateY(-10px) rotate(-45deg);
+	}
+}
+
+
+.movmobb6 .active span:nth-of-type(1) {
+	-webkit-transform: translateY(8px) rotate(-45deg);
+	transform: translateY(8px) rotate(-45deg);
+}
+.movmobb6 .active span:nth-of-type(2) {
+	left: 200%;
+	opacity: 0;
+	-webkit-transform: translateY(10px);
+	transform: translateY(10px);
+	-webkit-animation: active-menu-bar02 .8s forwards;
+	animation: active-menu-bar02 .8s forwards;
+}
+@-webkit-keyframes active-menu-bar02 {
+	100% {
+		height: 0;
+	}
+}
+@keyframes active-menu-bar02 {
+	100% {
+		height: 0;
+	}
+}
+.movmobb6 .active span:nth-of-type(3) {
+	-webkit-transform: translateY(-13px) rotate(45deg);
+	transform: translateY(-13px) rotate(45deg);
+}
