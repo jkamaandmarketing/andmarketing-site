@@ -28,6 +28,7 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/mobile_nav.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/page.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
@@ -52,17 +53,21 @@
 	<header>
 		<div class="header_logo rick_anime fadeInDown" data-ra-delay="0.3s"><a href="/"><img src="/assets/img/header/logo.svg" alt="AndMarketing"/></a></div>
 		<ul class="header_menu">
-			<li class="rick_anime fadeInDown" data-ra-delay="0.35s"><a href="#company_area">会社概要</a></li>
-			<li class="rick_anime fadeInDown" data-ra-delay="0.4s"><a href="#service_area">サービス概要</a></li>
-			<li class="rick_anime fadeInDown" data-ra-delay="0.45s"><a href="/topics/">お知らせ</a></li>
-			<li class="rick_anime fadeInDown" data-ra-delay="0.5s"><a class="header_contact" href="#cta_area"><span>お問合わせ</span></a></li>
+			<li class="rick_anime fadeInDown" data-ra-delay="0.35s"><a href="/about/">会社概要</a></li>
+			<li class="rick_anime fadeInDown" data-ra-delay="0.4s"><a href="/services/">事業内容</a></li>
+			<li class="rick_anime fadeInDown" data-ra-delay="0.45s"><a href="/works/">実績</a></li>
+			<li class="rick_anime fadeInDown" data-ra-delay="0.5s"><a href="/topics/">お知らせ</a></li>
+			<li class="rick_anime fadeInDown" data-ra-delay="0.55s"><a href="/recruit/">採用</a></li>
+			<li class="rick_anime fadeInDown" data-ra-delay="0.6s"><a class="header_contact" href="/contact/"><span>お問い合わせ</span></a></li>
 		</ul>
 		<nav class="mobilenav">
 			<ul>
-				<li><a class="click_hide" href="#company_area">会社概要</a></li>
-				<li><a class="click_hide" href="#service_area">サービス概要</a></li>
+				<li><a class="click_hide" href="/about/">会社概要</a></li>
+				<li><a class="click_hide" href="/services/">事業内容</a></li>
+				<li><a class="click_hide" href="/works/">実績</a></li>
 				<li><a class="click_hide" href="/topics/">お知らせ</a></li>
-				<li><a class="click_hide header_contact" href="#cta_area">お問合わせ</a></li>
+				<li><a class="click_hide" href="/recruit/">採用</a></li>
+				<li><a class="click_hide header_contact" href="/contact/">お問い合わせ</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -124,38 +129,8 @@
 			</ul>
 		</div>
 	</div>
-	<div class="outline_inner" id="company_area">
-		<h2 class="outline_title blurTrigger"><span>COMPANY OUTLINE</span></h2>
-		<div class="outline_table_area blurTrigger">
-			<table width="100%" border="0" class="outline_table">
-			  <tbody>
-				<tr>
-				  <th scope="row"><span>会社名</span></th>
-				  <td>アンドマーケティング株式会社<br>（AND MARKETING K.K.）</td>
-				</tr>
-				<tr>
-				  <th scope="row"><span>資本金</span></th>
-				  <td>1,000,000円</td>
-				</tr>
-				<tr>
-				  <th scope="row"><span>設立日</span></th>
-				  <td>2024年8月8日</td>
-				</tr>
-			  </tbody>
-			</table>
-			<table width="100%" border="0" class="outline_table blurTrigger">
-			  <tbody>
-				<tr>
-				  <th scope="row"><span>代表取締役</span></th>
-				  <td>鎌田淳一</td>
-				</tr>
-				<tr>
-				  <th scope="row"><span>本社所在地</span></th>
-				  <td>〒103-0022<br>東京都中央区日本橋室町1-2-6<br>日本橋大栄ビル7階</td>
-				</tr>
-			  </tbody>
-			</table>
-		</div>
+	<div class="index_more blurTrigger">
+		<a href="/about/" class="more_btn"><span>会社概要はこちら</span></a>
 	</div>
 </section>
 
@@ -171,21 +146,33 @@
 		</div>
 		<ul class="service_list">
 			<li class="blurTrigger">
-				<div class="service_image"><img class="animated infinite pulse" src="/assets/img/index/serivces_01.svg" alt="CONSULTING"/></div>
-				<h4>コンサルティング</h4>
-				<p>戦略設計から広告設計、KPIの設定まで、ビジネスの課題に応じて柔軟に支援します。施策単体ではなく、マーケティング全体の流れを見据えた設計で、伴走型のサポートを提供します。</p>
+				<a href="/services/consulting/">
+					<div class="service_image"><img class="animated infinite pulse" src="/assets/img/index/serivces_01.svg" alt="CONSULTING"/></div>
+					<h4>コンサルティング</h4>
+					<p>戦略設計からKPI設定まで、課題に応じて柔軟に支援。マーケティング全体を見据えた伴走型のサポートを提供します。</p>
+					<span class="svc_more">詳しく見る</span>
+				</a>
 			</li>
 			<li class="blurTrigger">
-				<div class="service_image"><img class="animated infinite pulse" src="/assets/img/index/serivces_02.svg" alt="ADVERTISING"/></div>
-				<h4>広告運用</h4>
-				<p>Google、Metaなどの運用型広告を中心に、媒体や商材に合わせた最適な設計・運用を行います。 多様な業界・媒体での経験を活かし、AIやBIツールによるレポート・品質管理にも対応しています。</p>
+				<a href="/services/ad-operation/">
+					<div class="service_image"><img class="animated infinite pulse" src="/assets/img/index/serivces_02.svg" alt="ADVERTISING"/></div>
+					<h4>広告運用</h4>
+					<p>Google・Metaなどの運用型広告を、媒体や商材に合わせて設計・運用・改善。AI・BIツールでの品質管理にも対応します。</p>
+					<span class="svc_more">詳しく見る</span>
+				</a>
 			</li>
 			<li class="blurTrigger">
-				<div class="service_image"><img class="animated infinite pulse" src="/assets/img/index/serivces_03.svg" alt="CREATIVE"/></div>
-				<h4>クリエイティブ制作</h4>
-				<p>生成AIによる多彩なクリエイティブ制作から、CMクオリティの動画制作まで幅広く対応。 訴求軸の設計やABテストを通じて、データに基づく改善を重ねていきます。</p>
+				<a href="/services/creative/">
+					<div class="service_image"><img class="animated infinite pulse" src="/assets/img/index/serivces_03.svg" alt="CREATIVE"/></div>
+					<h4>クリエイティブ制作</h4>
+					<p>生成AIによる制作からCMクオリティの動画まで幅広く対応。ABテストを通じてデータに基づく改善を重ねます。</p>
+					<span class="svc_more">詳しく見る</span>
+				</a>
 			</li>
 		</ul>
+		<div class="index_more blurTrigger">
+			<a href="/services/" class="more_btn"><span>事業内容はこちら</span></a>
+		</div>
 	</div>
 </section>
 
@@ -227,15 +214,79 @@
 		<h2 class="section_title">CONTACT<span>お問い合わせ</span></h2>
 		<h3>Web集客に関するご質問やご相談、協業のご相談はこちらから。</h3>
 		<div class="form_area">
-			<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-			<script>
-			  hbspt.forms.create({
-				region: "na1",
-				portalId: "45386793",
-				formId: "64ae11ea-d807-4eba-8891-af7b58bfb00f"
-			  });
-			</script>
+			<form class="contact_form" id="contactForm" novalidate>
+				<input type="hidden" name="access_key" value="c24596fb-fc0b-4e6a-9423-6e01b586fdeb">
+				<input type="hidden" name="subject" value="サイトからのお問い合わせ">
+				<input type="hidden" name="from_name" value="アンドマーケティングHP">
+				<!-- スパム対策：ハニーポット（人間には見えません） -->
+				<label class="form_hp" aria-hidden="true">このフィールドは空欄のままにしてください<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label>
+
+				<div class="form_row">
+					<label for="cf_company">会社名<span class="req">必須</span></label>
+					<input type="text" id="cf_company" name="会社名" required autocomplete="organization">
+				</div>
+				<div class="form_row">
+					<label for="cf_name">お名前<span class="req">必須</span></label>
+					<input type="text" id="cf_name" name="お名前" required autocomplete="name">
+				</div>
+				<div class="form_row">
+					<label for="cf_email">メールアドレス<span class="req">必須</span></label>
+					<input type="email" id="cf_email" name="メールアドレス" required autocomplete="email">
+				</div>
+				<div class="form_row">
+					<label for="cf_phone">電話番号<span class="opt">任意</span></label>
+					<input type="tel" id="cf_phone" name="電話番号" autocomplete="tel">
+				</div>
+				<div class="form_row">
+					<label for="cf_message">お問い合わせ内容<span class="req">必須</span></label>
+					<textarea id="cf_message" name="お問い合わせ内容" required></textarea>
+				</div>
+				<div class="form_submit">
+					<button type="submit">送信する</button>
+				</div>
+				<div class="form_msg" role="alert" aria-live="polite"></div>
+			</form>
 		</div>
+		<script>
+		(function () {
+			var form = document.getElementById('contactForm');
+			if (!form) return;
+			var btn = form.querySelector('button[type="submit"]');
+			var msg = form.querySelector('.form_msg');
+			var btnLabel = btn.textContent;
+			form.addEventListener('submit', function (e) {
+				e.preventDefault();
+				if (!form.checkValidity()) { form.reportValidity(); return; }
+				msg.className = 'form_msg';
+				msg.textContent = '';
+				btn.disabled = true;
+				btn.textContent = '送信中...';
+				var payload = JSON.stringify(Object.fromEntries(new FormData(form)));
+				fetch('https://api.web3forms.com/submit', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+						'Accept': 'application/json'
+					},
+					body: payload
+				})
+				.then(function (res) { return res.json().then(function (json) { return { ok: res.ok, json: json }; }); })
+				.then(function (r) {
+					if (r.ok && r.json.success) {
+						window.location.href = '/contact/thanks/';
+					} else {
+						throw new Error((r.json && r.json.message) || 'error');
+					}
+				})
+				.catch(function () {
+					msg.className = 'form_msg is_error';
+					msg.textContent = '送信に失敗しました。お手数ですが、時間をおいて再度送信してください。何度も失敗する場合は、恐れ入りますが直接メールにてご連絡ください。';
+					btn.disabled = false;
+					btn.textContent = btnLabel;
+				});
+			});
+		})();
+		</script>
 	</div>
 </section>
 
