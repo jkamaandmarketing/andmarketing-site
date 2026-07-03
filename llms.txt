@@ -1,0 +1,32 @@
+# アンドマーケティング株式会社
+
+> ビジネスの課題に、マーケティングで寄り添う。広告運用代行・マーケティングコンサルティング・クリエイティブ／動画制作を一気通貫で提供し、戦略設計から運用・制作・改善までをワンストップで支援するマーケティング支援会社です。
+
+アンドマーケティング株式会社（AND MARKETING K.K.）は、施策単体ではなくマーケティング全体の流れを見据えた伴走型の支援を行います。事業のフェーズや課題に応じて必要な打ち手を柔軟に組み立て、成果につながるマーケティングを実現します。
+
+- 設立：2024年8月8日
+- 代表取締役：鎌田淳一
+- 資本金：1,000,000円
+- 本社所在地：〒103-0022 東京都中央区日本橋室町1-2-6 日本橋大栄ビル7階
+- ミッション：マーケティングを通じて、社会や組織の多様な課題を解決し、成長と継続を実現する。
+
+## サービス
+
+- [広告運用代行](https://and-marketing.co.jp/services/ad-operation/)：Google・Metaなどの運用型広告を、媒体や商材に合わせて設計・運用・改善。AI・BIツールを活用したレポート・品質管理にも対応します。
+- [マーケティングコンサルティング](https://and-marketing.co.jp/services/consulting/)：戦略設計から広告設計、KPI設定まで、課題に応じて柔軟に支援。マーケティング全体を見据えた伴走型のサポートを提供します。
+- [クリエイティブ・動画制作](https://and-marketing.co.jp/services/creative/)：生成AIによる多彩なクリエイティブから、CMクオリティの動画制作まで幅広く対応。ABテストを通じてデータに基づく改善を重ねます。
+
+## 主要ページ
+
+- [トップページ](https://and-marketing.co.jp/)：会社の概要とサービス全体像
+- [会社概要](https://and-marketing.co.jp/about/)：ミッション・会社情報
+- [事業内容](https://and-marketing.co.jp/services/)：3つのサービスの一覧
+- [実績](https://and-marketing.co.jp/works/)：支援実績
+- [採用情報](https://and-marketing.co.jp/recruit/)：採用に関する情報
+- [お知らせ](https://and-marketing.co.jp/topics/)：新サービス・キャンペーン情報
+- [お問い合わせ](https://and-marketing.co.jp/contact/)：ご相談・お問い合わせ窓口
+
+## その他
+
+- [プライバシーポリシー](https://and-marketing.co.jp/privacy-policy/)
+- [サイトマップ (XML)](https://and-marketing.co.jp/sitemap.xml)

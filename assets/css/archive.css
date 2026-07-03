@@ -47,7 +47,7 @@ p.post-date {
     color: #888;
 }
 
-h3.title {
+.title {
     margin: 5px 0 14px 0px;
     font-size: 2rem;
     font-weight: bold;
@@ -238,7 +238,7 @@ section.page_contents {
     text-align: left;
 }
 	
-h3.title {
+.title {
     font-size: 1.4rem;
     margin: 3px 0 8px;
     line-height: 28px;
