@@ -65,3 +65,5 @@ Cloudflare Pages で GitHub リポジトリを連携：
 - **HubSpotフォーム**: トップページ下部の問い合わせフォームは HubSpot の埋め込みコード（portalId: 45386793, formId: 64ae11ea-d807-4eba-8891-af7b58bfb00f）。差し替える場合は `index.html` 内の hbspt.forms.create を編集
 - **GTM**: Google Tag Manager（GTM-584N4JSK）が全ページに入っています
 - **画像パス**: すべて `/assets/` または `/uploads/` から始まる絶対パス。ローカル確認時もサーバ起動して見てください（ファイルを直接ブラウザで開くと一部画像が表示されません）
+
+<!-- deploy trigger: 2026-07-03 -->
