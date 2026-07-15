@@ -2,3 +2,6 @@
 Thumbs.db
 *.log
 node_modules/
+
+# デザイン受け渡し用（モック展開先・公開対象外）
+handoff/
