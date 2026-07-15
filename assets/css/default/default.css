@@ -117,6 +117,10 @@ img,canvas,iframe,video,svg{
 }
 /* スマホ用 */
 @media screen and (max-width: 480px) {
+	/* PCのみの改行・要素（スマホでは自動折り返しに任せる） */
+	.pc_only{
+		display:none;
+	}
 	*{
 		font-size:1.3rem;
 	}

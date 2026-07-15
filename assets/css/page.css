@@ -376,13 +376,13 @@
     letter-spacing: 1px;
 }
 
-/* ---- 会社概要テーブル ---- */
+/* ---- ミッション（about） ---- */
 .mission_block {
     text-align: center;
-    margin: 20px 0 30px;
+    margin: 40px 0 34px;
 }
 
-.mission_block h2 {
+.mission_block h3 {
     font-size: 2.6rem;
     font-weight: 700;
     line-height: 44px;
@@ -396,6 +396,32 @@
     color: #444;
 }
 
+/* ---- 社名に込めた想い（about） ---- */
+.origin_body {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 24px 0 10px;
+}
+
+.origin_body p {
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-weight: 500;
+    color: #333;
+}
+
+.origin_body .slogan_line {
+    font-size: 1.7rem;
+}
+
+.origin_body .slogan_line strong {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #EA5504;
+}
+
+/* ---- 会社概要テーブル ---- */
 .info_table {
     width: 100%;
     margin: 24px 0;
@@ -1329,7 +1355,11 @@ section.page_head_title .ph_ttl span {
         padding: 30px 24px;
     }
 
-    .mission_block h2 {
+    .mission_block {
+        margin: 24px 0 26px;
+    }
+
+    .mission_block h3 {
         font-size: 1.9rem;
         line-height: 32px;
     }
@@ -1337,6 +1367,20 @@ section.page_head_title .ph_ttl span {
     .mission_block p {
         font-size: 1.35rem;
         line-height: 28px;
+    }
+
+    .origin_body {
+        gap: 18px;
+    }
+
+    .origin_body p {
+        font-size: 1.35rem;
+        line-height: 28px;
+    }
+
+    .origin_body .slogan_line,
+    .origin_body .slogan_line strong {
+        font-size: 1.5rem;
     }
 
     .info_table th,
